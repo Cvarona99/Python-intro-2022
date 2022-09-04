@@ -40,7 +40,7 @@ int get_cents(void)
     int cents;
     do
     {
-        cents = get_int("Cents Owed: ")
+        cents = get_int("Cents Owed: ");
     }
     while(cents < 0);
 
@@ -75,7 +75,7 @@ int calculate_nickels(int cents)
     while( cents >= 5 )
     {
         cents = cents -5;
-        nickels++
+        nickels++;
     }
     return nickels;
 }
