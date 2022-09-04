@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    
+    //prompt for x and Y 
     int x = get_int("x: ");
     int y = get_int("y: ");
     int z = x+y;
