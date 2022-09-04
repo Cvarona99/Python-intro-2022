@@ -1,7 +1,8 @@
 #include <cs50.h>
 #include <stdio.h>
 
-int main(void)
+float discount(float price);
+
 {
     float regular = get_float("Regular Price: ");
     float sale = regular * .85;
