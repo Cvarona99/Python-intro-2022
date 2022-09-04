@@ -11,6 +11,6 @@ int main(void)
     float z = x / y;
 
     //perform
-    printf(" = %f\n", z);
+    printf(" = %.2f\n", z);
 
 }
