@@ -5,4 +5,6 @@ int main(void)
 {
         //Prompt user to agree
         char c= get_char("Do you agree? ");
+
+        //check whetehr
 }
