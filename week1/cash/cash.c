@@ -60,7 +60,7 @@ int calculate_quarters(int cents)
 //calculates # of dimes
 int calculate_dimes(int cents)
 {
-    int dimes= 0;
+    int dimes = 0;
     while (cents >= 10)
     {
         cents = cents - 10;
