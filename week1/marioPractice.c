@@ -20,8 +20,9 @@ int main(void)
             printf("#");
         }
 
-    }
     //move to next row
     printf("\n");
+    }
+
 
 }
