@@ -3,5 +3,6 @@
 
 int main(void)
 {
+    while( )
     printf("meow\n");
 }
