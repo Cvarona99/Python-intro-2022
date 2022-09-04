@@ -3,6 +3,9 @@
 
 int main(void)
 {
-    while( )
-    printf("meow\n");
+    int counter= 0;
+    while(counter<3)
+    {
+        printf("meow\n");
+    }
 }
