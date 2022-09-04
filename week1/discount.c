@@ -3,6 +3,7 @@
 
 float discount(float price);
 
+int main(void)
 {
     float regular = get_float("Regular Price: ");
     float sale = discount(regular);
@@ -11,5 +12,5 @@ float discount(float price);
 
 float discount(float price)
 {
-    return price*. 85;
+    return price* .85;
 }
