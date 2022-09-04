@@ -4,9 +4,13 @@
 int main(void)
 {
     //prompt for x and Y
-    int x = get_int("x: ");
-    int y = get_int("y: ");
-    int z = x+y;
-    printf(" = %i\n", z);
+    float x = get_float("x: ");
+    float y = get_float("y: ");
+
+    //Divide x by y
+    float z = x / y;
+
+    //perform
+    printf(" = %f\n", z);
 
 }
