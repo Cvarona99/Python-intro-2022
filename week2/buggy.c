@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <cs50.h>
 int get_negative_int(void);
+
 int main(void)
 {
 
-    int = get_negative_int();
+    int i = get_negative_int();
     printf("%i\n", i);
 }
 
