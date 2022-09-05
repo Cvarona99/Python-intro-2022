@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
+#include <string.h>
 
 int string_length(string s);
 int main(void)
