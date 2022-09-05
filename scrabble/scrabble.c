@@ -19,7 +19,7 @@ int main(void)
     int score2 = compute_score(word2);
 
     // Print the winner
-    if(score1 > score2)
+    if (score1 > score2)
     {
         printf("Player 1 Wins!\n");
     }
@@ -41,9 +41,9 @@ int compute_score(string word)
     // Compute and return score for string
     int score = 0;
     //1.Initial  2.conditional 3. Increment by 1 for each iteration
-    int i=0;
+    int i = 0;
 
-    for( i = 0; i < strlen(word); i++)
+    for ( i = 0; i < strlen(word); i++)
     {
         if (isupper(word[i]))
         {
