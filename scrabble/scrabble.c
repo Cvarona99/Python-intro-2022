@@ -30,6 +30,6 @@ int compute_score(string word)
 
     for( i = 0; i < strlen(word); i++)
     {
-        score = score + POINTS[]
+        score = score + POINTS[word[i] - 65]
     }
 }
