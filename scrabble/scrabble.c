@@ -24,11 +24,12 @@ int main(void)
 int compute_score(string word)
 {
     // TODO: Compute and return score for string
-
+    int score = 0;
     //1.Initial  2.conditional 3. Increment by 1 for each iteration
+
 
     for( i = 0; i < strlen(word); i++)
     {
-        
+        score = score + POINTS[]
     }
 }
