@@ -28,4 +28,7 @@ int compute_score(string word)
     //1.Initial  2.conditional 3. Increment by 1 for each iteration
 
     for( i = 0; i < strlen(word); i++)
+    {
+        
+    }
 }
