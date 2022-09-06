@@ -14,7 +14,7 @@ int main()
 
     int x =  myGrades[4] + 10;
 
-    
+    printf("%i\n", x);
 
     return 0;
 
