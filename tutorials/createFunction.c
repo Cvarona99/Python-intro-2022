@@ -6,7 +6,7 @@
 int main()
 {
 
-    int n = 5;
+    int n = get_int ("What is the number\n");
     int factorial = 1;
 
     for (int i = n; i > 1; i--)
