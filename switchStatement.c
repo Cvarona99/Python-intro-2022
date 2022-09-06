@@ -3,8 +3,8 @@
 
 int main()
 {
-    int get_int("How many slices of pizaz did you eat?");
-    int slices;
+    int slices = get_int("How many slices of pizaz did you eat?");
+
     switch(slices)
     {
         case 1:
