@@ -10,8 +10,12 @@ int main()
     while (n != 0)
     {
         if ( n < 0)
+        {
+
+
             break;
         get_int("Enter a number\n");
+        }
     }
 
 
