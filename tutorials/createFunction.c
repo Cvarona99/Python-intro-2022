@@ -3,6 +3,8 @@
 #include <stdio.h>
 #include <cs50.h>
 
+int factorial(int number);
+
 int main()
 {
 
@@ -22,5 +24,12 @@ int main()
 
 
     return 0;
+
+}
+
+int factorial(int number)
+{
+    int factorial = 1;
+    
 
 }
