@@ -1,5 +1,6 @@
 #include <cs50.h>
 #include <stdio.h>
+#include <ctype.h>
 
 int main(int argc, string argv[])
 {
@@ -12,7 +13,10 @@ int main(int argc, string argv[])
 
     for(i = 0; i< strlen (argv[1]; i++))
     {
-
+        if(!isdigit(argv[1][i]))
+        {
+            printf
+        }
     }
 
 }
