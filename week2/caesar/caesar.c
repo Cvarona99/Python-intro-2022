@@ -12,7 +12,7 @@ int main(int argc, string argv[])
         return 1;
     }
 
-    for(i = 0; i< strlen (argv[1]; i++))
+    for(int i = 0; i < strlen (argv[1]; i++))
     {
         if(!isdigit(argv[1][i]))
         {
@@ -24,5 +24,6 @@ int main(int argc, string argv[])
 
     int k = atoi(argv[1]);
 
-    strint 
+    string plaintext = get_string("Plaintext: \n");
+    print("Ciphertext: \n")
 }
