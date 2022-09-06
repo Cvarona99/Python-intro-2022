@@ -12,7 +12,7 @@ int main()
     for (int i = n; i > 1; i--)
     {
 
-        factorial *= i
+        factorial *= i; 
 
     }
 
