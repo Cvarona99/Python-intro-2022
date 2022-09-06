@@ -27,7 +27,7 @@ int main()
             printf("You might as well be dead\n");
             break;
     }
-    printf("You had %i calories\n", calPerSlice);
+    printf("You had %i calories\n", calPerSlice * slices );
 
 
     return 0;
