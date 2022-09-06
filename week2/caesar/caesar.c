@@ -4,6 +4,6 @@
 int main(int argc, string argv[])
 {
 
-    
+    if arc == 2
 
 }
