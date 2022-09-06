@@ -6,7 +6,13 @@ int main(int argc, string argv[])
 
     if (argc != 2)
     {
-        printf("Usage: ./caesar key\n")
+        printf("Usage: ./caesar key");
+        return 1;
+    }
+
+    for(i = 0; i< strlen (argv[1]; i++))
+    {
+        
     }
 
 }
