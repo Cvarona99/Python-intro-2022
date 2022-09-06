@@ -8,9 +8,15 @@ int main()
     printf("%i \n", myGrades[0]);
 
 // index = 0 based number
-// element = 
+// element
+// size
 
 
+    int x =  myGrades[4] + 10;
+
+    
+
+    return 0;
 
 
 }
