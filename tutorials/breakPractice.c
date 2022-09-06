@@ -9,7 +9,7 @@ int main()
 
     while (n != 0)
     {
-        if ( n > 0)
+        if (n > 0)
         {
 
 
