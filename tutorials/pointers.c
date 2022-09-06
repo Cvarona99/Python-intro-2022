@@ -3,7 +3,8 @@
 
 int main()
 {
+    int slice = 20;
+    int
 
-    
     return 0;
 }
