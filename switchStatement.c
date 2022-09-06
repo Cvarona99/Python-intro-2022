@@ -7,6 +7,8 @@ int main()
 
     printf("Number of slices: %i\n", slices);
 
+    int calPerSlice = 250;
+
     switch(slices)
     {
         case 1:
@@ -25,5 +27,8 @@ int main()
             printf("You might as well be dead\n");
             break;
     }
+    printf("You had %i calories\n", calPerSlice);
+
+
     return 0;
 }
