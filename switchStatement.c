@@ -5,7 +5,7 @@ int main()
 {
     int slices = get_int("How many slices of pizaz did you eat?\n");
 
-    printf(")
+    printf("Number of slices: %i\n", slices);
 
     switch(slices)
     {
