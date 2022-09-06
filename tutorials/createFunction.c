@@ -12,9 +12,12 @@ int main()
     for (int i = n; i > 1; i--)
     {
 
-        factorial *= i; 
+        factorial *= i;
+        // factorial = factorial * i
 
     }
+
+    printf("The factorial of %i is %i\n", n, factorial);
 
 
 
