@@ -1,3 +1,5 @@
+//Program that allows user to enter itegers until they enter a negative number or zero
+// NOT WORKING FOR SOME REASON 
 #include <stdio.h>
 #include <cs50.h>
 
