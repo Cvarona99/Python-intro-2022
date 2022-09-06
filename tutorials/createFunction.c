@@ -3,17 +3,18 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int factorial(int number);
+int factorial(int n);
 
 int main()
 {
     int fact = factorial(5);
-    printf("%i /n", fact);
+    printf("%i ", fact);
+    printf("\n");
     return 0;
 
 }
 
-int factorial(int number)
+int factorial(int n)
 {
     int factorial = 1;
 
