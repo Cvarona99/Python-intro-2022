@@ -7,8 +7,14 @@ int factorial(int number);
 
 int main()
 {
+    int fact = factorial(5);
+    printf("%i /n", fact);
+    return 0;
 
-    int n = get_int ("What is the number\n");
+}
+
+int factorial(int number)
+{
     int factorial = 1;
 
     for (int i = n; i > 1; i--)
@@ -19,17 +25,7 @@ int main()
 
     }
 
-    printf("The factorial of %i is %i\n", n, factorial);
+    return factorial;
 
-
-
-    return 0;
-
-}
-
-int factorial(int number)
-{
-    int factorial = 1;
-    
 
 }
