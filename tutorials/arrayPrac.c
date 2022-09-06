@@ -3,7 +3,12 @@
 
 int main()
 {
-    int myGrades[]  // create  a size upfront or 
+    int myGrades[] = {10, 12, 14, 15, 16, 17, 54, 34, 23};
+
+    printf("%i \n", myGrades[0]);
+
+// index = 0 based number
+// element = 
 
 
 
