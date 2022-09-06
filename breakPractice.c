@@ -3,9 +3,16 @@
 
 int main()
 {
-    int n = get_string("Enter a number\n")
+    int n = get_int("Enter a number\n");
 
-    printf("%i", &n );
+    printf("%i\n", n);
+
+    while (n != 0)
+    {
+        if ( n < 0)
+            break;
+        get_int("Enter a number\n");
+    }
 
 
 
