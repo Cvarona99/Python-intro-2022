@@ -13,6 +13,6 @@ int main()
             n = n+2;
             continue;
         }
-        printf("%i", i);
+        printf("%i ", i);
     }
 }
