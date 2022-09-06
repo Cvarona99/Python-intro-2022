@@ -3,7 +3,9 @@
 
 int main()
 {
-    int slices = get_int("How many slices of pizaz did you eat?");
+    int slices = get_int("How many slices of pizaz did you eat?\n");
+
+    printf(")
 
     switch(slices)
     {
