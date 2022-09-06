@@ -4,6 +4,9 @@
 int main(int argc, string argv[])
 {
 
-    if arc == 2
+    if (argc != 2)
+    {
+        printf("Usage: ./caesar key\n")
+    }
 
 }
