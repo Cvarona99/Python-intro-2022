@@ -13,12 +13,12 @@ int main()
         {
 
 
-            break;
+            get_int("Enter a number\n");
 
         }
         else
         {
-            get_int("Enter a number\n");
+            break;
         }
 
     }
