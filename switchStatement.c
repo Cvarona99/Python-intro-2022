@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include <cs50.h>
 
 int main()
 {
-    int slices = 1;
+    int get_int("How many slices of pizza did you eat?");
+    int slices;
     switch(slices)
     {
         case 1:
