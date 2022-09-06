@@ -3,7 +3,7 @@
 
 int main()
 {
-    int get_int("How many slices of pizza did you eat?");
+    int get_int("How many slices of pizaz did you eat?");
     int slices;
     switch(slices)
     {
