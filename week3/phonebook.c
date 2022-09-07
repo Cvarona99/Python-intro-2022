@@ -18,7 +18,7 @@ int main()
 
     for (int i = 0; i < 2; i++)
     {
-        if (strcmp(people[i].name, "David") == 0)
+        if (strcmp(people[i].name, "Carter") == 0)
         {
             print("Found!\n", people[i].number);
             return 0;
