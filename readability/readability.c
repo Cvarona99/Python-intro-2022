@@ -53,6 +53,7 @@ int count_letters(string text)
             counter++;
         }
     }
+    return counter; 
 }
 
 
