@@ -18,7 +18,7 @@ int main(void)
     int sentences = 0;
 
     string text = get_string("Text: ");
-    for (int i=0; i < strlen(text); i++)
+/*    for (int i=0; i < strlen(text); i++)
     {
         if (isalpha(text[i]))
         {
@@ -32,7 +32,8 @@ int main(void)
         {
             sentences++;
         }
-    }
+    } */
+    
     float L = (float) letters / (float) words *100;
     float S = (float) sentences / (float) words *100;
 
@@ -51,4 +52,9 @@ int main(void)
     {
         printf("Grade %i", index);
     }
+}
+
+int count_letters (string text)
+{
+    int length = strlen(text);
 }
