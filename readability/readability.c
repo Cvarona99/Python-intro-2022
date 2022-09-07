@@ -4,9 +4,17 @@
 
 int main(void)
 {
+
+    int letters = 0;
+    int words = 0;
+    int sentences = 0;
+
     string text = get_string("Text: ");
     for (int i=0; i < strlen(text); i++)
     {
-        if()
+        if(text[i] >='A' && <='a') || (text[i] >= 'Z' && >= 'z')
+        {
+            
+        }
     }
 }
