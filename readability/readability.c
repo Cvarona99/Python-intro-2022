@@ -52,10 +52,19 @@ int count_letters(string text)
     return counter;
 }
 
-int count_words(string text)
+int count_sentences(string text)
 {
-    int countword = 0;
-    int wordlength =s
+   int counter = 0;
+   int length = strlen(text);
+
+    for (int i = 0; i < length; i++)
+    {
+        if(text[i] == '.' || text[i] == '!' || text[i] == ")
+        {
+            counter++;
+        }
+
+    }
 }
 
 
