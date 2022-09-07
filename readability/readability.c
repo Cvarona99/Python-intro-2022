@@ -13,13 +13,16 @@ int count_words (string text);
 int main(void)
 {
     string text;
-    int index, L, S;
+    float index;
+    int letters;
+    int words;
+    int sentences;
 
     text = get_string("Text: ");
 
 
-   // float L = (float) letters / (float) words *100;
-   // float S = (float) sentences / (float) words *100;
+    float L = (float) letters / (float) words *100;
+    float S = (float) sentences / (float) words *100;
 
      index = round(0.0588 * L - 0.296 * S - 15.8);
 
@@ -36,6 +39,20 @@ int main(void)
     {
         printf("Grade %i", index);
     } */
+}
+
+int count_letters(string text)
+{
+    int counter = 0; 
+    int length = strlen(text)
+
+    for (int i = 0; i < length; i++)
+    {
+        if (isalpha(text[i]))
+        {
+            counter++;
+        }
+    }
 }
 
 
