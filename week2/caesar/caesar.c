@@ -19,6 +19,7 @@ int main(int argc, string argv[])
             printf("Usage: ./caesar key\n");
             return 1;
         }
+    }
 
     int k = atoi(argv[1]);
     string plaintext = get_string("Plaintext: \n");
@@ -28,13 +29,25 @@ int main(int argc, string argv[])
         {
             if (isupper(plaintext[j]))
             {
-                printf(("%c", plaintext[j] - 'A' + k) %26 + 'A');
+                printf("%c", (plaintext[j] - 'A' + k) %26 + 'A');
             }
 
             else if(islower(plaintext[j]))
+            {
+                printf("%c", (plaintext[j] - 'a' + k) %26 + 'a');
+            }
+
+            else
+            {
+                    printf("%c", plaintext[j]);
+
+            }
+
 
         }
 
+
+
     }
-}
+
 
