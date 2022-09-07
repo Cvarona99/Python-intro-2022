@@ -50,7 +50,7 @@ int main(void)
    }
    else
    {
-    printf("Grade %f)
+    printf("Grade %f\n", round(index));
    }
 }
 
