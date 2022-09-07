@@ -12,19 +12,18 @@ int count_words (string text);
 
 int main(void)
 {
-    int letters;
-    letters = count_letters;
-    int words = 1;
-    int sentences = 0;
+    string text;
+    int index, L, S;
 
-    string text = get_string("Text: ");
+    text = get_string("Text: ");
 
-    float L = (float) letters / (float) words *100;
-    float S = (float) sentences / (float) words *100;
 
-    int index = round(0.0588 * L - 0.296 * S - 15.8);
+   // float L = (float) letters / (float) words *100;
+   // float S = (float) sentences / (float) words *100;
 
-    if (index < 1)
+     index = round(0.0588 * L - 0.296 * S - 15.8);
+
+ /*   if (index < 1)
     {
         printf("Before Grade 1");
     }
@@ -36,7 +35,7 @@ int main(void)
     else
     {
         printf("Grade %i", index);
-    }
+    } */
 }
 
 
