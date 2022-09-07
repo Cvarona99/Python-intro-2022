@@ -40,10 +40,11 @@ int main(void)
 
    index = round(0.0588 * L - 0.296 * S - 15.8);
 
-   if(index > 16)
+   if (index > 16)
    {
-    printf ("Grade 16+)
+    printf ("Grade 16+\n");
    }
+   else if (index < 1) 
 }
 
 int count_letters(string text)
