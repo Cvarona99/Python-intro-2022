@@ -35,10 +35,10 @@ int main(void)
     printf("%i words\n", words);
 
 
-   // float L = (float) letters / (float) words *100;
-    //float S = (float) sentences / (float) words *100;
+   float L = (float) letters / (float) words *100;
+   float S = (float) sentences / (float) words *100;
 
-   //  index = round(0.0588 * L - 0.296 * S - 15.8);
+   index = round(0.0588 * L - 0.296 * S - 15.8);
 }
 
 int count_letters(string text)
