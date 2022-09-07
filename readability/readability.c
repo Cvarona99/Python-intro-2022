@@ -87,11 +87,11 @@ int count_sentences(string text)
         {
             counter++;
         }
-    return counter;
+
 
     }
 
-    return 0;
+    return counter;
 }
 
 
