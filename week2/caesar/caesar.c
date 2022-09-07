@@ -37,7 +37,10 @@ int main(int argc, string argv[])
         {
             printf(("%c", plaintext[j] -'a' + k) %26 + 'a');
         }
-
-
+        else
+        {
+            printf("%c", plaintext[j]);
+        }
     }
+    
 }
