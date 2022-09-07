@@ -14,9 +14,8 @@ int main(void)
 {
     string text;
     float index;
-    int letters = 0;
-    int sentences = 0;
-    int words = 0;
+    int letters, sentences, words;
+
 
 
 
@@ -24,6 +23,7 @@ int main(void)
 
 
     text = get_string("Text: ");
+    letters = count_letters; 
 
 
     float L = (float) letters / (float) words *100;
@@ -42,7 +42,7 @@ int count_letters (string text)
         counter++
     }
 
-// monke 
+// monke
 
 
 
