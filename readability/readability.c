@@ -52,6 +52,24 @@ int count_letters(string text)
     return counter;
 }
 
+int_count_words(string text)
+{
+    int counter = 1;
+    int length = strlen(text);
+
+    for (int i = 0; i < length; i++)
+    {
+        if(text[i] == ' ')
+        {
+            counter++;
+        }
+
+    }
+
+    return counter;
+}
+
+
 int count_sentences(string text)
 {
    int counter = 0;
