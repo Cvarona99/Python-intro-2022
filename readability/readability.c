@@ -14,7 +14,9 @@ int main(void)
 {
     string text;
     float index;
-    int letters, sentences, words = 0;
+    int letters;
+  //  int words;
+  //  int sentences;
 
 
 
@@ -26,10 +28,10 @@ int main(void)
     letters = count_letters(text);
 
 
-    float L = (float) letters / (float) words *100;
-    float S = (float) sentences / (float) words *100;
+   // float L = (float) letters / (float) words *100;
+    //float S = (float) sentences / (float) words *100;
 
-     index = round(0.0588 * L - 0.296 * S - 15.8);
+   //  index = round(0.0588 * L - 0.296 * S - 15.8);
 }
 
 int count_letters (string text)
@@ -39,8 +41,10 @@ int count_letters (string text)
 
     for (int i = 0; i < length; i++)
     {
-        counter++
+        counter++;
     }
+
+    return counter;
 
 // monke
 
