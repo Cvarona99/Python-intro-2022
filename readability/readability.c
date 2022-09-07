@@ -5,8 +5,8 @@
 #include <math.h>
 
 int count_letters (string text);
-int count_sentences (string text);
 int count_words (string text);
+int count_sentences (string text);
 
 
 
@@ -31,6 +31,23 @@ int main(void)
 
      index = round(0.0588 * L - 0.296 * S - 15.8);
 }
+
+int count_letters (string text)
+{
+    int length = strlen(text);
+
+    for (int i = 0; i< length; i++)
+    {
+        counter++
+    }
+
+
+
+
+
+
+}
+
 
 
 
