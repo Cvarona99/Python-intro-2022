@@ -8,7 +8,7 @@ int main()
 
     for (int i = 0; i < 7; i++)
     {
-        if (strcmp(names[i], "Ron") == 0)
+        if (strcmp(names[i], "monke") == 0)
         {
             printf("Found!\n");
             return 0;
