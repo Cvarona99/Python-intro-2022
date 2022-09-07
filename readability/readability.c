@@ -53,6 +53,10 @@ int count_letters(string text)
 }
 
 int count_words(string text)
+{
+    int countword = 0;
+    int wordlength =s
+}
 
 
 
