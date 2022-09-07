@@ -21,5 +21,13 @@ int main(void)
         {
             words++;
         }
+        else if (text[i] == '.' || '?' || '!')
+        {
+            sentences++;
+        }
     }
+    float L = letters / words *100;
+    float S = sentences / words *100;
+    
+    int index = 0.0588 * L - 0.296 * S - 15.8;
 }
