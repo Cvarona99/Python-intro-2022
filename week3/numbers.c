@@ -9,15 +9,13 @@ int main()
 
     for (int i=0; i< 7; i++)
     {
-        if (numbers[i] == 0)
+        if (numbers[i] == -1)
         {
             printf("Found!\n");
             return 0;
         }
-        else
-        {
-            printf("Not found\n");
-            return 1;
-        }
+
     }
+    printf("Not found\n");
+    return 1;
 }
