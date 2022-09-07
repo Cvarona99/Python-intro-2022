@@ -27,6 +27,7 @@ int main(void)
     text = get_string("Text: ");
     letters = count_letters(text);
 
+    printf("%i letters\n", letters);
 
    // float L = (float) letters / (float) words *100;
     //float S = (float) sentences / (float) words *100;
