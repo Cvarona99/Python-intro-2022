@@ -13,9 +13,10 @@ int main(void)
     string text = get_string("Text: ");
     for (int i=0; i < strlen(text); i++)
     {
-        if(text[i] >='A' && <='a') || (text[i] >= 'Z' && >= 'z')
+        if (isalpha(text[i]))
         {
-            
+            letters++;
         }
+        
     }
 }
