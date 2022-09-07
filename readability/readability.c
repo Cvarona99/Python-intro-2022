@@ -34,14 +34,15 @@ int main(void)
 
 int count_letters (string text)
 {
+    int counter = 0;
     int length = strlen(text);
 
-    for (int i = 0; i< length; i++)
+    for (int i = 0; i < length; i++)
     {
         counter++
     }
 
-
+// monke 
 
 
 
