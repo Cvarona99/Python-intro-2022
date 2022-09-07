@@ -14,7 +14,9 @@ int main(void)
 {
     string text;
     float index;
-
+    int letters = 0;
+    int sentences = 0;
+    int words = 0;
 
 
 
