@@ -14,9 +14,12 @@ int main(void)
 {
     string text;
     float index;
-    int letters;
-    int words;
-    int sentences;
+
+
+
+
+
+
 
     text = get_string("Text: ");
 
