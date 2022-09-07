@@ -4,6 +4,12 @@
 #include <ctype.h>
 #include <math.h>
 
+int count_letters (string text);
+int count_sentences (string text);
+int count_words (string text);
+
+
+
 int main(void)
 {
 
@@ -43,6 +49,6 @@ int main(void)
     }
     else
     {
-        printf("Grade %i", index); 
+        printf("Grade %i", index);
     }
 }
