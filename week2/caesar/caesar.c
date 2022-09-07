@@ -23,5 +23,5 @@ for (int i = 0; i< strlen (argv[1]); i++)
 
     int k = atoi(argv[1]);
     string plaintext = get_string("Plaintext: \n");
-    printf("Ciphertext)
+    printf("Ciphertext: ");
 }
