@@ -25,35 +25,8 @@ int main(void)
     float S = (float) sentences / (float) words *100;
 
      index = round(0.0588 * L - 0.296 * S - 15.8);
-
- /*   if (index < 1)
-    {
-        printf("Before Grade 1");
-    }
-
-    else if (index > 16)
-    {
-        printf("Grade 16+");
-    }
-    else
-    {
-        printf("Grade %i", index);
-    } */
 }
 
-int count_letters(string text)
-{
-    int counter = 0, length;
-    int length = strlen(text)
 
-    for (int i = 0; i < length; i++)
-    {
-        if (isalpha(text[i]))
-        {
-            counter++;
-        }
-    }
-    return counter; 
-}
 
 
