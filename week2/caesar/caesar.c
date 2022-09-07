@@ -26,9 +26,15 @@ int main(int argc, string argv[])
 
         for (int j = 0; j < strlen(plaintext); j++)
         {
-            printf("%c", plaintext[j] - 'A' + k);
+            if (isupper(plaintext[j]))
+            {
+                printf(("%c", plaintext[j] - 'A' + k) %26 + 'A');
+            }
+
+            else if(islower(plaintext[j]))
 
         }
+
     }
 }
 
