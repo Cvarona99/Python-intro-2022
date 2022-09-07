@@ -14,7 +14,7 @@ int main(void)
 {
     string text;
     float index;
-    int letters, sentences, words;
+    int letters, sentences, words = 0;
 
 
 
@@ -23,7 +23,7 @@ int main(void)
 
 
     text = get_string("Text: ");
-    letters = count_letters; 
+    letters = count_letters(text);
 
 
     float L = (float) letters / (float) words *100;
