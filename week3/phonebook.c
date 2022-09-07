@@ -20,7 +20,7 @@ int main()
     {
         if (strcmp(people[i].name, "David") == 0)
         {
-            print("Found!\n", numbers[i]);
+            print("Found!\n", people[i].number);
             return 0;
         }
     }
