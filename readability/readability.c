@@ -43,7 +43,7 @@ int main(void)
 
 int count_letters(string text)
 {
-    int counter = 0; 
+    int counter = 0, length;
     int length = strlen(text)
 
     for (int i = 0; i < length; i++)
