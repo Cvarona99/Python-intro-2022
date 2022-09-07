@@ -42,7 +42,11 @@ int count_letters (string text)
 
     for (int i = 0; i < length; i++)
     {
-        counter++;
+        if(isalpha(text[i]))
+        {
+            counter++;
+        }
+
     }
 
     return counter;
