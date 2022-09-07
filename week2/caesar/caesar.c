@@ -24,11 +24,11 @@ int main(int argc, string argv[])
     string plaintext = get_string("Plaintext: \n");
     printf("Ciphertext: ");
 
-    for (int j = 0; j < strlen(plaintext); j++)
-    {
-      printf("%c", plaintext[j] + k);
+        for (int j = 0; j < strlen(plaintext); j++)
+        {
+            printf("%c", plaintext[j] - 'A' + k);
 
-    }
+        }
     }
 }
 
