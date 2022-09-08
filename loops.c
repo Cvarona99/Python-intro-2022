@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include <cs50.h> 
+#include <cs50.h>
 
 int main()
 {
 
-int max = get_int("%i\n" max)
+int max = get_int("%i\n");
 
     for (int i= 0; i <= max; i++)
     {
