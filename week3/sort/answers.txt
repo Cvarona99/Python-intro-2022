@@ -1,10 +1,11 @@
 sort1 uses: Bubble sort
 
-How do you know?: 
+How do you know?: When the reversed array was ran, sort1 took the longest real time to sort, and reversed order is the worst case scenario for bubble.
 
-sort2 uses: TODO
+sort2 uses:
 
-How do you know?: TODO
+How do you know?: Due to having figured out the other two first, sort2 must be selection sort.
+Further evidence suggests this however, as 
 
 sort3 uses: Selection sort
 
