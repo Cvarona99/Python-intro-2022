@@ -8,7 +8,7 @@ int max = get_int("Max: \n");
 int i;
     for ( max;)
     {
-        printf("%i\n", i);
+        printf("%i\n", max);
     }
 
     return 0;
