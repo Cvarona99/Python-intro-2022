@@ -1,6 +1,6 @@
 #include <cs50.h>
 #include <stdio.h>
-
+void draw(int n);
 int main()
 {
     int height = get_int("Height: ");
