@@ -10,6 +10,6 @@ int i;
     {
         printf("%i\n", i);
     }
-    printf("You printed up to the number %i", i);
+    printf("You printed up to the number %i", i - 1);
     return 0;
 }
