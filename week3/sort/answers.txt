@@ -1,11 +1,12 @@
-sort1 uses: TODO
+sort1 uses: Bubble sort
 
-How do you know?: TODO
+How do you know?: 
 
 sort2 uses: TODO
 
 How do you know?: TODO
 
-sort3 uses: selection sort
+sort3 uses: Selection sort
 
-How do you know?: in both the sorted and random cases, the real time 
+How do you know?: in both the sorted and random cases, the real time was similar.
+it was the longest time in the sorted array.
