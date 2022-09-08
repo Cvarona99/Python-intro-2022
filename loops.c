@@ -5,10 +5,11 @@ int main()
 {
 
 int max = get_int("Max: \n");
-
-    for (int i= 0; i <= max; i++)
+int i;
+    for (i= 0; i < max; i++)
     {
         printf("%i\n", i);
     }
+    printf("You printed up to the number %i", i);
     return 0;
 }
