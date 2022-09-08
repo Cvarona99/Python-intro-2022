@@ -22,9 +22,14 @@ do
 }
 while (end < n);
 
+int years = 0;
+while (n < end)
+{
+    start+= start/ 12;
+    years++;
+}
 
-
-
+printf("Years: %i\n", years);
 
 
 
