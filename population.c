@@ -25,7 +25,7 @@ while (end < n);
 int years = 0;
 while (n < end)
 {
-    start+= start/ 12;
+    n += n/12;
     years++;
 }
 
