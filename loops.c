@@ -3,7 +3,9 @@
 int main()
 {
 
-    for (int i= 0; i < 10; i++)
+int max = get_int("%i\n" max)
+
+    for (int i= 0; i < max; i++)
     {
         printf("%i\n", i);
     }
