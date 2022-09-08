@@ -4,17 +4,11 @@
 
 int main()
 {
-    string name = get_string ("What is your name?: \n");
+    for (int i = 0; i < 10; i++)
+    {
 
-    int age = get_int ("What is your age?: \n");
-    string number = get_string ("What is your number?: \n");
-
-
-
-    printf("%s\n", name);
-    printf("%i\n", age);
-    printf("%s\n", number);
-
+    }
+    
 
 
 
