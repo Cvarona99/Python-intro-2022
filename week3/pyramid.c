@@ -5,7 +5,7 @@ int main()
 {
     int height = get_int("Height: ");
 
-    draw(height);
+  draw(height);
 }
 
 void draw(int n)
