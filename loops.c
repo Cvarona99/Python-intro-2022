@@ -4,7 +4,7 @@
 int main()
 {
 
-int max = get_int("%i\n");
+int max = get_int("Max: \n");
 
     for (int i= 0; i <= max; i++)
     {
