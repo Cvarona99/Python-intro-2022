@@ -1,14 +1,14 @@
-sort1 uses: Bubble sort
+sort1 uses: Bubble Sort
 
 How do you know?: When the reversed array was ran, sort1 took the longest real time to sort
 and reversed order is the worst case scenario for bubble.
 
-sort2 uses: Merge sort
+sort2 uses: Merge Sort
 
 How do you know?: Due to having figured out the other two first, sort2 must be selection sort.
 Further evidence suggests this however, as it was typically the fastest in the three tested cases.
 
-sort3 uses: Selection sort
+sort3 uses: Selection Sort
 
 How do you know?: in both the sorted and random cases, the real time was similar.
 it was the longest time in the sorted array.
