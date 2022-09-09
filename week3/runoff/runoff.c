@@ -130,7 +130,10 @@ bool vote(int voter, int rank, string name)
 {
     // TODO
 
-    
+    for (int i = 0; i < /* nameorsomething;*/ i++)
+    {
+        if (voter)
+    }
     return false;
 }
 
