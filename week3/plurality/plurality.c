@@ -69,7 +69,7 @@ bool vote(string name)
 
 
 
-    Fr
+    return false;
 
 }
 
