@@ -20,11 +20,11 @@ int main(void)
         {
             printf(" ");
         }
-            printf("#");
+
         for ( int j = 0; j < i; j++)
         {
 
-
+            printf("#");
 
         }
         printf("\n");
