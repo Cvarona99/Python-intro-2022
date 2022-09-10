@@ -21,7 +21,7 @@ int main(void)
              printf(" ");
 
             else
-             printf("# ");
+             printf("#");
 
 
         }
