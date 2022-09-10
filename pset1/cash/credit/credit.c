@@ -6,9 +6,11 @@
 
 int main(void)
 {
+    long credit;
+    int total_sum = 0;
     do
     {
-        long number = get_long("Number: ");
+         number = get_long("Number: ");
     }
     while (number !=0)
 
