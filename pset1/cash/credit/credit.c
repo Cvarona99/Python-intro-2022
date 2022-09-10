@@ -16,7 +16,10 @@ bool check_sum(long num)
     int total = 0;
     while()
     {
-        if()
-        total += num % 10;
+        if(true)
+        {
+            total += num % 10;
+        }
+
     }
 }
