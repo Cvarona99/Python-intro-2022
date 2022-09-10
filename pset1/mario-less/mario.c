@@ -15,13 +15,15 @@ int main(void)
 
     for ( int i = 1; i <= height; i++)
     {
+
+        for (int z = height -1; z > i; z--)
+        {
+            printf(" ");
+        }
+            printf("#");
         for ( int j = 0; j < i; j++)
         {
-            for (int z = height -1; z > i; z--)
-            {
-                printf(" ");
-            }
-            printf("#");
+
 
 
         }
