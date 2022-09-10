@@ -17,14 +17,7 @@ int main(void)
     {
         for ( int j = 0; j < height; j++)
         {
-            if (i + j == height)
-            {
-                printf("#");
-            }
-            else
-            {
-                printf(" ");
-            }
+            
 
 
         }
