@@ -8,8 +8,8 @@ int main(void)
 
     do
     {
-        n = get_int("Height: ");
+        height = get_int ("Enter a height between 1 and 8: ");
 
     }
-    while (n < 1 || n > 8);
+    while (height < 1 || height > 8);
 }
