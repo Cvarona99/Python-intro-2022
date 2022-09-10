@@ -3,5 +3,5 @@
 
 int main(void)
 {
-    long number = get_long("what's your credit card )
+    long number = get_long("what's your credit card number: ")
 }
