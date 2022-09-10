@@ -3,12 +3,18 @@
 
 int main()
 {
-   for (int i = 0; i < 11; i++)
-   {
-    for (int j = i; j < 11; j++)
+
+for (int i = 0; i < 4; i++)
+{
+    for (int j = 0; j < 4; j++)
     {
-        printf("%i ", j);
+        printf("* ");
     }
-    printf("\n");
-   }
+
+}
+
+
+
+
+
 }
