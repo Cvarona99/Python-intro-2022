@@ -3,14 +3,11 @@
 
 int main()
 {
+int n = get_int("Number of cocks sucked: ");
 
-for (int i = 0; i < 4; i++)
+for (int i = 0; i < n; i++)
 {
-    for (int j = 0; j < 4; j++)
-    {
-        printf("* ");
-    }
-
+    printf("* ");
 }
 
 
