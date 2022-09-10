@@ -38,6 +38,11 @@ int main(void)
 int get_cents(void)
 {
     // TODO
+    do
+    {
+        cents
+    }
+
     return 0;
 }
 
