@@ -4,12 +4,12 @@
 int main()
 {
     int i, mult = 0;
-    int number = get_int("input the number");
+    int number = get_int("input the number: ");
 
-    for (i = 0; i< 10; i++)
+    for (i = 1; i<= 10; i++)
     {
         mult = i * number;
-        print
+        printf("%i X %i = %i\n", number, i, mult );
     }
 
 
