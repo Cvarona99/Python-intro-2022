@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
-
+// Write a program that takes in user input for n number of nat. numbers,
+//and prints the sum of them. 
 int main()
 {
     int n = get_int("How many natural numbers?: ");
