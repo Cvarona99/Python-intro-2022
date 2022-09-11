@@ -6,7 +6,7 @@ int main()
     int i, j = 0;
     int height = get_int("Enter a height ");
 
-    for (i = 1; i <= height; i++)
+    for (i = 1; i <= 5; i++)
     {
         for (j = 1; j <= i; j++)
         {
