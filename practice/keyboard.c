@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
-// write a program that 
+// write a program that takes in input for 10 numbers and prints
+// the sum as well as the average. 
 int main()
 {
     int i, n, sum = 0;
