@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
-
+// write a program that 
 int main()
 {
     int i, n, sum = 0;
