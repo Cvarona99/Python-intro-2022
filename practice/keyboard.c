@@ -11,9 +11,13 @@ int main()
     printf("input 10 numbers: \n");
     for (int i = 0; i<10; i++)
     {
-        printf("Number _ %i : ", i);
-        n = get_int("
+
+        n = get_int("Number _ %i : ", i);
+        sum+= n;
     }
+    avg = (float)sum / 10.0;
+
+    printf("The sum is %i\nThe Average is %f\n)
 
 
 
