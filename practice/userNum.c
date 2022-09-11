@@ -15,7 +15,7 @@ int main()
 
     }
     printf("\n");
-    printf("Sumbody once told me: %i ", sum);
+    printf("Sumbody once told me: %i\n", sum);
 
 
 
