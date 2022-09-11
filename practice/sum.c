@@ -1,6 +1,6 @@
 #include <cs50.h>
 #include <stdio.h>
-// Create a program that prints the first ten natural numbers and 
+// Create a program that prints the first ten natural numbers and
 int main()
 {
     int numbers = 0;
@@ -10,6 +10,7 @@ int main()
 
         sum+= numbers;
         printf("%i ", numbers);
+        printf("%i ", sum);
     }
     printf("\n");
 
