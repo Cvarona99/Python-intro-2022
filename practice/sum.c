@@ -7,8 +7,9 @@ int main()
     int sum = 0;
     for (numbers = 1; numbers <= 10; numbers++)
     {
-
+        // 0+1 = 1 , now 1 +2 = 3, now 3+3  6...
         sum+= numbers;
+        
         printf("%i ", numbers);
         printf("%i ", sum);
     }
