@@ -9,7 +9,7 @@ int main()
 
 
     printf("input 10 numbers: \n");
-    for (int i = 0; i<10; i++)
+    for (i = 0; i<10; i++)
     {
 
         n = get_int("Number _ %i : ", i);
@@ -17,7 +17,7 @@ int main()
     }
     avg = (float)sum / 10.0;
 
-    printf("The sum is %i\nThe Average is %f\n)
+    printf("The sum is %i\nThe Average is %f\n", sum , avg);
 
 
 
