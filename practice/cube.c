@@ -4,7 +4,8 @@
 int main()
 {
 
-    
+    int i, cube = 0;
+    for (i = 0; )
 
 
 }
