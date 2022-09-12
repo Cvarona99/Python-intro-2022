@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    int n = get_int("How many scores");
+    int n = get_int("How many scores: ");
 
 
    int scores[n];
@@ -14,4 +14,3 @@ int main(void)
 
    printf("Average: %f\n", (scores[0] + scores[1] + scores[2]) / (float) n);
 }
- 
