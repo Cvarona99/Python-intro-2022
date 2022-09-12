@@ -11,9 +11,9 @@ int main()
     myGrades[3] = 25;
     myGrades[4] = 30;
 
-    int i;
 
-    for (i= 0; i < size; i++)
+
+    for (int i = 0; i < size; i++)
     {
         printf("%i ", myGrades[i]);
     }
