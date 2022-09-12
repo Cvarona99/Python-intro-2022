@@ -3,6 +3,22 @@
 
 int main()
 {
-    int myGrades[] = {10 , 12, 14, 15 ,16, 17, 54, 34, 23};
-    printf("%i", myGrades[0]);
+    int size = 5;
+    int myGrades = {size};
+    myGrades[0] = 10;
+    myGrades[1] = 15;
+    myGrades[2] = 20;
+    myGrades[3] = 25;
+    myGrades[4] = 30;
+
+    int i;
+
+    for (i= 0; i < size; i++)
+    {
+        printf("%i ", myGrades[i]);
+    }
+
+
+
+
 }
