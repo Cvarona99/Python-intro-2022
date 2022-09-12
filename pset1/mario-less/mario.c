@@ -16,10 +16,10 @@ int main(void)
     for ( int i = 1; i <= height; i++)
     {
 
-        for (int z = height; z > i; z--)
-        {
-            printf(".");
-        }
+    //    for (int z = height; z > i; z--)
+    //    {
+   //         printf(".");
+   //     }
 
         for ( int j = 0; j < i; j++)
         {
