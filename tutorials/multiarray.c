@@ -5,5 +5,5 @@ int main()
 {
     int myGrades[] = {12, 13, 45};
 
-    int grades[][]
+    int grades[][3] = 
 }
