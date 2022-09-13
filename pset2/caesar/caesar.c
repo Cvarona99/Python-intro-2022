@@ -41,14 +41,14 @@ bool only_digits(string s)
 
 char rotate(char p, int k)
 {
-    char c; 
+    char c;
     if (issupper(p))
     {
-        c = (p - 'A' + k)%26;
+        c = (p - 'A' + k)%26 + 'A';
     }
     else if (islower(p))
     {
-        c = (p - 'a' + k)%26;
+        c = (p - 'a' + k)%26 + 'a';
     }
     else
     {
