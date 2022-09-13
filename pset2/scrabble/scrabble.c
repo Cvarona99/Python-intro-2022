@@ -23,7 +23,7 @@ int main(void)
     {
         printf("Player 1 wins!\n");
     }
-    else if (score 1 < score 2 )
+    else if (score1 < score2 )
     {
         printf("Player 2 wins!\n");
     }
@@ -52,5 +52,5 @@ int compute_score(string word)
         }
 
     }
-    return score; 
+    return score;
 }
