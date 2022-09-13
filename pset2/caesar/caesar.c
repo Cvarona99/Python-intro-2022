@@ -4,9 +4,9 @@
 int main(int argc, string argv[])
 {
     // Get the key
-    int k;
-
-
     
+
+
+
 
 }
