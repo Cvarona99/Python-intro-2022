@@ -3,7 +3,8 @@
 void printArray(int arr[], int size);
 int main (void)
 {
-
+    int slicesEachMeal[] = {4, 5, 4, 6, 3, 2,};
+    printArray(sliceseachMeal, 6);
 }
 
 
