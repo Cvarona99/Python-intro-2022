@@ -4,13 +4,14 @@
 int main()
 {
     int total;
-    printf()
+    total = sum(5, 6);
+    printf("total : %i\n", total);
 
 }
 
-int sum (int a, int b)
+int sum(int a, int b)
 {
-    int total;
-    total = a + b;
-    return total;
+    int add;
+    add = a + b;
+    return add;
 }
