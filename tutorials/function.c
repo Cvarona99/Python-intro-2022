@@ -5,10 +5,8 @@ int factorial(int number);
 
 int main(void)
 {
-    int number = 5;
-    int factorial = 1;
-
-    printf("factorial: %i\n", factorial);
+   int f = factorial(5);
+   printf("%i\n", fact);
 }
 
 
