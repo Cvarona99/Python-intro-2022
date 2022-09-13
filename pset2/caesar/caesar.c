@@ -10,15 +10,16 @@ char rotate(char p, int k);
 int main(int argc, string argv[])
 {
     // Get the key
+    int k;
+    string plain;
     if (argc != 2 || !only_digits(argv[1]))
     {
         printf("Usage: ./caesar key\n");
         return 1;
     }
-    else
-    {
-        return 0;
-    }
+
+    k = atoi(argv[1]);
+    plain = get_string("plaintext: ");
 }
 
 bool only_digits(string s)
@@ -36,4 +37,11 @@ bool only_digits(string s)
         }
 
     }
+}
+
+char rotate(char p, int k)
+{
+    c = 
+
+
 }
