@@ -10,7 +10,7 @@ char rotate(char p, int k);
 int main(int argc, string argv[])
 {
     // Get the key
-    if (argv != 2)
+    if (argc != 2 || !only_digits(argv[1]))
     {
         printf("Usage: ./caesar key\n");
         return 1;
@@ -26,7 +26,14 @@ bool only_digits(string s)
     int length = strlen(s);
     for (int i = 0; i < length; i++)
     {
-        if (!isdigit(s[i]))
-        
+        if (isdigit(s[i]))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+
     }
 }
