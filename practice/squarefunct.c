@@ -6,7 +6,7 @@ int main()
 {
     int num = get_int("input any number and it will be squared: ");
     double squared = square(num);
-    printf("The square root of %i is %f\n", num, squared);
+    printf("The square of %i is %f\n", num, squared);
 }
 
 double square( double number)
