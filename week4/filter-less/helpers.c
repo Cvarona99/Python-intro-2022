@@ -10,12 +10,12 @@ void grayscale(int height, int width, RGBTRIPLE image[height][width])
         for (int j = 0; j < width; j++)
         {
             //convert to float value then find average
-            float red = image[i][j].rgbtRED;
-            float green = image[i][j].rgbtGREEN;
-            float blue  = image[i][j].rgbtBLUE;
+            float red = image[i][j].rgbtRed;
+            float green = image[i][j].rgbtGreen;
+            float blue  = image[i][j].rgbtBlue;
 
             average  = round(red +  green + blue) / (float)3;
-            image[i][j].rgbtRED = image[i][j].rgbtGREEN = image[i][j].rgbtBLUE = average; 
+            red = green = blue = average;
 
         }
     }
