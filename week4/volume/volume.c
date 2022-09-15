@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
     // TODO: Copy header from input file to output file
 
     uint8_t header[HEADER_SIZE];
-    fread()
+    fread(void *ptr, size_t size, size_t nmemb, FILE *stream);
 
 
 
