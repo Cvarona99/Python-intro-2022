@@ -34,6 +34,7 @@ int main(int argc, char *argv[])
     float factor = atof(argv[3]);
 
     // TODO: Copy header from input file to output file
+    
     int headerbuffer[44];
     fread()
 
