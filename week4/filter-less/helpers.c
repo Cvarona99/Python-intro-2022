@@ -72,7 +72,15 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
         for (int j = 0; j < width; j++)
         {
             int red, blue, green = 0;
-            float counter = 0; 
+            float counter = 0.00;
+
+            for (int x = -1; x < 2; x++)
+            {
+                for (int y = -1; y < 2; y++)
+                {
+                    int 
+                }
+            }
         }
     }
 
