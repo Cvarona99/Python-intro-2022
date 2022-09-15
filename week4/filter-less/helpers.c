@@ -67,6 +67,15 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
     }
 
     // copy from temp to image
+    for (int i = 0; i < height; i++)
+    {
+        for (int j = 0; j < width; j++)
+        {
+            int red, blue, green = 0;
+            
+        }
+    }
+
 
     for (int i = 0; i < height; i++)
     {
