@@ -46,7 +46,8 @@ int main(int argc, char *argv[])
     while (fread(&buffer, sizeof(int16_t), 1, input))
     {
         // Change volume
-        buffer *= facto
+        buffer *= factor;
+        fwrite(&buffer, sizeof(int16_t), 1, output);
     }
 
 
