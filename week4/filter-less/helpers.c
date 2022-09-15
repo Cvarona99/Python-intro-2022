@@ -31,10 +31,14 @@ void sepia(int height, int width, RGBTRIPLE image[height][width])
         // loop through each column >>>>>>>
         for (int j = 0; j < width; j++ )
         {
-            // convert to float value
+            // convert to float value and change value per formula
             float originalRed  = image[i][j].rgbtRed;
             float originalGreen  = image[i][j].rgbtGreen;
             float originalBlue  = image[i][j].rgbtBlue;
+
+            
+
+
         }
     }
 {
