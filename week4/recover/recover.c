@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdint.h>
 
 int main(int argc, char *argv[])
 {
@@ -17,6 +18,12 @@ int main(int argc, char *argv[])
         return 2;
     }
 
-    typedef 
+    typedef uint8_t BYTE;
+    BYTE buffer[512];
+
+    while (fread(buffer, 1, BLOCK_SIZE, raw_file) == BLOCK_SIZE)
+    {
+        
+    }
 
 }
