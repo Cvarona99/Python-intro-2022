@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 
     while (fread(buffer, sizeof(BYTE), 512, f) == 512)
     {
-
+        if ()
     }
 
 }
