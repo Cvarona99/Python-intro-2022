@@ -56,6 +56,7 @@ int main(int argc, char *argv[])
                 {
                     fclose(img);
                     fclose(f);
+                    break; 
                 }
 
             }
