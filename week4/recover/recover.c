@@ -41,7 +41,15 @@ int main(int argc, char *argv[])
             else
             {
                 // close file and open a new JPEG
-                fclose
+                fclose(filename);
+                sprintf(filename, "%03i.jpg", count);
+                img = fopen(filename, "w");
+                fwrite(buffer, sizeof(BYTE), bytesRead, img);
+                counter++;
+            }
+            else
+            {
+                
             }
         }
     }
