@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
             {
                 // Create new JPEG
                 sprintf(filename, "%03i.jpg", count);
-                img = fopen(filename)
+                img = fopen(filename, "w");
             }
         }
     }
