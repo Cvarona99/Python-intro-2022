@@ -20,12 +20,22 @@ int main(int argc, char *argv[])
 
     typedef uint8_t BYTE;
     BYTE buffer[512];
+    int Counter, bytesRead = 0;
+    char *filename; 
+    FILE *img = NULL;
 
-    while (fread(buffer, sizeof(BYTE), 512, f) == 512)
+
+    while (fread(buffer, /*1*/sizeof(BYTE), 512, f) == 512)
     {
         if (buffer[0] == 0xff && buffer [1] == 0xd8 && buffer[2] == 0xff && ((buffer[3] & 0xf0) == 0xe0))
         {
-            
+            // If first
+            if(counter == 0;)
+            {
+                // Create new JPEG
+                sprintf(filename, "%03i.jpg", count);
+                img = fopen(filename)
+            }
         }
     }
 
