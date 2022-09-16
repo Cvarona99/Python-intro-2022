@@ -41,6 +41,7 @@ int main(int argc, char *argv[])
             else
             {
                 // close file and open a new JPEG
+                fclose
             }
         }
     }
