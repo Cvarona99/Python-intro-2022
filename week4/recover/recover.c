@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 
     typedef uint8_t BYTE;
     BYTE buffer[512];
-    int Counter, bytesRead = 0;
+    int counter, bytesRead = 0;
     char filename[8];
     FILE *img = NULL;
 
@@ -35,6 +35,12 @@ int main(int argc, char *argv[])
                 // Create new JPEG
                 sprintf(filename, "%03i.jpg", count);
                 img = fopen(filename, "w");
+                fwrite(buffer, sizeof(BYTE), bytesRead, img);
+                counter++;
+            }
+            else
+            {
+                // close file and open a new JPEG
             }
         }
     }
