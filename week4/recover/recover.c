@@ -38,6 +38,7 @@ int main(int argc, char *argv[])
                 fwrite(buffer, sizeof(BYTE), bytesRead, img);
                 counter++;
             }
+
             else
             {
                 // close file and open a new JPEG
@@ -47,10 +48,16 @@ int main(int argc, char *argv[])
                 fwrite(buffer, sizeof(BYTE), bytesRead, img);
                 counter++;
             }
+
             else
             {
                 fwrite(buffer, sizeOf(BYTE), bytesRead, img);
-                
+                if(bytesRead == 0)
+                {
+                    fclose(img);
+                    fclose(f);
+                }
+
             }
         }
     }
