@@ -4,6 +4,6 @@
 int main(int argc, char *argv[])
 {
 
-    File *f = fopen(argv[1], "r");
+    FILE *f = fopen(argv[1], "r");
 
 }
