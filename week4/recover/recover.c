@@ -11,4 +11,11 @@ int main(int argc, char *argv[])
         return 1;
     }
 
+    if (f == NULL)
+    {
+        printf("Invalid file\n");
+        return 2;
+    }
+
+    
 }
