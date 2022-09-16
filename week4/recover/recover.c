@@ -21,9 +21,9 @@ int main(int argc, char *argv[])
     typedef uint8_t BYTE;
     BYTE buffer[512];
 
-    while (fread(buffer, 1, BLOCK_SIZE, raw_file) == BLOCK_SIZE)
+    while (fread(buffer, sizeof(BYTE), 512, f) == 512)
     {
-        
+
     }
 
 }
