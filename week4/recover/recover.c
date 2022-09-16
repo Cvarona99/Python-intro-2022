@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
     FILE *f = fopen(argv[1], "r");
     if (!f)
     {
-        printf("Invalid file\n");
+        printf("Usage: ./recover IMAGE\n");
         return 1;
     }
 
