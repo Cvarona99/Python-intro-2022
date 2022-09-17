@@ -42,14 +42,14 @@ int main(int argc, char *argv[])
             else
             {
                 // close file and open a new JPEG
-                fclose(filename);
-                sprintf(filename, "%03i.jpg", count);
+                fclose(img);
+                sprintf(filename, "%03i.jpg", counter);
                 img = fopen(filename, "w");
                 fwrite(buffer, sizeof(BYTE), bytesRead, img);
                 counter++;
             }
 
-            else if(counter !=)
+            else if(counter != 0)
             {
                 fwrite(buffer, sizeOf(BYTE), bytesRead, img);
                 if(bytesRead == 0)
