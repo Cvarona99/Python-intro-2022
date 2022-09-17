@@ -38,7 +38,10 @@ int main(int argc, char *argv[])
         {
             fwrite(buffer, sizeof(BYTE), 512, img);
         }
-
     }
+
+    fclose(f);
+    fclose(img);
+    return 0;
 }
 
