@@ -21,7 +21,6 @@ int main(int argc, char *argv[])
     typedef uint8_t BYTE;
     BYTE buffer[512];
     int counter = 0;
-    int bytesRead = 0;
     char filename[8];
     FILE *img = NULL;
 
