@@ -19,7 +19,11 @@ list [2] = 3;
 // Allocate new array of size 4
 int *tmp = malloc(4 * sizeof(int));
 if (tmp == NULL)
-return 2;
+{
+    free(list);
+    return 2;
+}
+
 
 
 // Copy numbers from old array int new array
@@ -42,7 +46,7 @@ for (int i = 0; i < 4; i++)
 }
 return 0;
 
-free(tmp);
+
 free(list);
 }
 
