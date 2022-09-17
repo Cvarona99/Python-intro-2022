@@ -48,5 +48,9 @@ int main(void)
     n->next = NULL;
     list->next->next = n;
 
-    
+    // Print numbers
+    for (node* tmp = list; tmp != NULL; tmp = tmp->next)
+    {
+        
+    }
 }
