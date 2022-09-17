@@ -32,8 +32,8 @@ int main()
 
         printf("Clock: ");
         printf("%02i:%2i:%2i", h, m, s); // Writes time in the format 00:00:00
+
         
-        system("cls");
 
     }
 
