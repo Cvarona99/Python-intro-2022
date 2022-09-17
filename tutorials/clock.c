@@ -5,7 +5,7 @@ int main()
 {
     int h, m, s;
     int d = 1000; // delay of 1000 milliseconds
-    printf("Set Time: "\n);
+    printf("Set Time: \n");
     scanf("%i%i%i", &h, &m, &s);
     if (h > 12 || m > 60 || s > 60)
     {
@@ -14,7 +14,7 @@ int main()
     }
     while(1) // infinite loop
     {
-        s++
+        s++;
         if(s > 59)
         {
             m++;
@@ -30,9 +30,9 @@ int main()
             h = 1;
         }
 
-        printf("Clock: ")
+        printf("Clock: ");
         printf("%02i:%2i:%2i", h, m, s); // Writes time in the format 00:00:00
-        Sleep(d);
+        sleep(d);
         system("cls");
 
     }
