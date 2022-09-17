@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
     FILE *img = NULL;
 
 
-    while (fread(buffer, /*1*/sizeof(BYTE), 512, f) == 512)
+    while (fread(buffer, 1, 512, f) == 512)
     {
         if (buffer[0] == 0xff && buffer [1] == 0xd8 && buffer[2] == 0xff && ((buffer[3] & 0xf0) == 0xe0))
         {
