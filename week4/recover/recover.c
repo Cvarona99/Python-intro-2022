@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
                 counter++;
             }
 
-            else
+            else if(counter !=)
             {
                 fwrite(buffer, sizeOf(BYTE), bytesRead, img);
                 if(bytesRead == 0)
