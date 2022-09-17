@@ -30,45 +30,9 @@ int main(int argc, char *argv[])
     {
         if (buffer[0] == 0xff && buffer [1] == 0xd8 && buffer[2] == 0xff && (buffer[3] & 0xf0) == 0xe0)
         {
-            // If first
-            if(counter == 0)
-            {
-                // Create new JPEG
-                sprintf(filename, "%03i.jpg", counter);
-                img = fopen(filename, "w");
-                fwrite(buffer, sizeof(BYTE), bytesRead, img);
-                counter++;
-            }
-
-            else
-            {
-                // close file and open a new JPEG
-                fclose(img);
-                sprintf(filename, "%03i.jpg", counter);
-                img = fopen(filename, "w");
-                fwrite(buffer, sizeof(BYTE), bytesRead, img);
-                counter++;
-            }
+            sprintf(filename, "%03i.jpg", counter);
+            img = fopen(filename, "w");
         }
-
-            else if( counter != 0)
-            {
-                fwrite(buffer, sizeof(BYTE), bytesRead, img);
-                if(bytesRead == 0)
-                {
-                    fclose(img);
-                    fclose(f);
-                    return 0;
-                }
-
-            }
-     }
-
-
-
-fclose(img);
-fclose(f);
-
-
+    }
 }
 
