@@ -30,13 +30,13 @@ int main()
             h = 1;
         }
 
-        printf("Clock: ");
-        printf("%02i:%2i:%2i", h, m, s); // Writes time in the format 00:00:00
 
-        
+
+
 
     }
-
+    printf("Clock: ");
+    printf("%02i:%2i:%2i", h, m, s); // Writes time in the format 00:00:00
 
 
 
