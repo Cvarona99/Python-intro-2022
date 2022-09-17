@@ -18,12 +18,23 @@ int *tmp = malloc(4 * sizeof(int));
 if (tmp == NULL)
 return 2;
 
-for (int i = 0; i < 4; i++)
+for (int i = 0; i < 3; i++)
 {
     tmp[i] = list[i];
 }
 
 tmp[3] = 4;
+
+list = tmp;
+
+for (int i = 0; i < 4; i++)
+{
+    printf("%i\n", list[i]);
+}
+return 0;
+
+free(tmp);
+free(list);
 
 
 }
