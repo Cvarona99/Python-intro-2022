@@ -48,7 +48,8 @@ int main(int argc, char *argv[])
                 fwrite(buffer, sizeof(BYTE), bytesRead, img);
                 counter++;
             }
-            
+        }
+
             else if(counter != 0)
             {
                 fwrite(buffer, sizeOf(BYTE), bytesRead, img);
@@ -69,3 +70,4 @@ fclose(f);
 
 
 }
+
