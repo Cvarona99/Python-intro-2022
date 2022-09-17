@@ -50,9 +50,9 @@ int main(int argc, char *argv[])
             }
         }
 
-            else if(counter != 0)
+            else if( counter != 0)
             {
-                fwrite(buffer, sizeOf(BYTE), bytesRead, img);
+                fwrite(buffer, sizeof(BYTE), bytesRead, img);
                 if(bytesRead == 0)
                 {
                     fclose(img);
@@ -62,7 +62,7 @@ int main(int argc, char *argv[])
 
             }
         }
-    
+
 
 
 fclose(img);
