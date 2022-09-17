@@ -14,8 +14,16 @@ list [2] = 3;
 
 // Time passes and you want to add to array dynamically
 
-int * = malloc(4 * sizeof(int));
-list[3] = 4;
+int *tmp = malloc(4 * sizeof(int));
+if (tmp == NULL)
+return 2;
+
+for (int i = 0; i < 4; i++)
+{
+    tmp[i] = list[i];
+}
+
+tmp[3] = 4;
 }
 
 
