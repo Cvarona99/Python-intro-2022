@@ -25,6 +25,8 @@ for (int i = 0; i < 3; i++)
 
 tmp[3] = 4;
 
+free(list);
+
 list = tmp;
 
 for (int i = 0; i < 4; i++)
@@ -33,10 +35,8 @@ for (int i = 0; i < 4; i++)
 }
 return 0;
 
-free(tmp);
+
 free(list);
-
-
 }
 
 
