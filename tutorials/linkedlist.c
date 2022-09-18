@@ -4,7 +4,7 @@
 struct sPerson
 {
     int age;
-    
+    struct sPerson* nextInLine;
 }
 sPerson;
 
