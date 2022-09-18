@@ -25,15 +25,24 @@ void printPerson(const struct sPerson* person, const char* comment)
     }
     else
     {
-        printf(%s: age:%d address:%p\n", comment, person->age, person);
+        printf("%s: age:%d address:%p\n", comment, person->age, person);
     }
 
 }
 
 int main(void)
 {
-
     // Dynamic allocation of memory - allocation of memory only as needed
+    struct sPerson* first = NULL;
+    struct sPerson* second = NULL;
+
+    printPerson(first, "first");
+    printPerson(second, "second");
+
+    first = getNewPerson(125);
+    second = getNewPerson(100);
+
+        printPerson(first, "first");
 
 
 }
