@@ -59,6 +59,7 @@ int main(void)
     {
         node* tmp = list->next;
         free(list);
-        list = tmp; 
+        free(node);
+        list = tmp;
     }
 }
