@@ -26,7 +26,8 @@ void printPerson(const struct sPerson* person, const char* comment)
     }
     else
     {
-        printf("%s: age:%d address:%p\n", comment, person->age, person);
+        printf("%s: age:%d address:%p nextInLine:%p\n", comment,
+        person->age, person, person->nextInLine);
     }
 
 }
