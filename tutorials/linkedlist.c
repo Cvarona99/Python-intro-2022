@@ -21,7 +21,7 @@ void printPerson(const struct sPerson* person, const char* comment)
 {
     if (person == NULL)
     {
-        return 1; 
+        return 1;
     }
 
 }
