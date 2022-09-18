@@ -45,5 +45,11 @@ int main(void)
     printPerson(first, "first");
     printPerson(second, "second");
 
+    free(first);
+    free(second);
+
+    first = NULL;
+    second = NULL; 
+
 
 }
