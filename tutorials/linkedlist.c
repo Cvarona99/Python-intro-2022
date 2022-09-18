@@ -4,6 +4,7 @@
 struct sPerson
 {
     int age;
+    
 }
 sPerson;
 
@@ -49,7 +50,7 @@ int main(void)
     free(second);
 
     first = NULL;
-    second = NULL; 
+    second = NULL;
 
 
 }
