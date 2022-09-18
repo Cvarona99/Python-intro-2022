@@ -42,7 +42,8 @@ int main(void)
     first = getNewPerson(125);
     second = getNewPerson(100);
 
-        printPerson(first, "first");
+    printPerson(first, "first");
+    printPerson(second, "second");
 
 
 }
