@@ -21,7 +21,11 @@ void printPerson(const struct sPerson* person, const char* comment)
 {
     if (person == NULL)
     {
-        return 1;
+        printf("value NULL\n");
+    }
+    else
+    {
+        printf(%s: age:%d address:%p\n", comment, person->age, person);
     }
 
 }
