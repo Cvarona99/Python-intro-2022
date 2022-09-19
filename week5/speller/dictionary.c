@@ -49,7 +49,18 @@ bool load(const char *dictionary)
     }
 
     char word[LENGTH + 1]
-    while(fscanf(file, "%s", != EOF))
+    while(fscanf(file, "%s", word) != EOF)
+
+    // Allocate memory
+    node *n = malloc(sizeof(node));
+    if (n == NULL)
+    {
+        return false;
+    }
+
+    strcopy(n->word, word);
+    hash_value = hash(word);
+    
 
 
 }
