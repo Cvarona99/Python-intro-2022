@@ -1,10 +1,10 @@
-
 try:
 x = int(input("x: "))
-except:
-    print("That's not an int")
+except ValueError:
+    print("That's not an int!")
     exit()
 try:
-y = int(input("y: "))
+y = int(input("y: "))\
+except:
 print(x + y)
 
