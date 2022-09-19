@@ -64,14 +64,14 @@ bool load(const char *dictionary)
         {
             return false;
         }
-
+        // Copy word into node 
         strcopy(n->word, word);
         hash_value = hash(word);
         n->next = table[hash_value];
         table[hash_value] = n;
         wordcount++;
     }
-    free(file); 
+    free(file);
     fclose(file);
     return true;
 }
