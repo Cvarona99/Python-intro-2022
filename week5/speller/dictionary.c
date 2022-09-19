@@ -18,7 +18,7 @@ typedef struct node
 node;
 
 // Declare variables
-unsigned int wordcount = 0; 
+unsigned int wordcount = 0;
 unsigned int hash_value;
 
 
