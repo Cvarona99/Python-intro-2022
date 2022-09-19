@@ -27,7 +27,7 @@ node *table[N];
 // Returns true if word is in dictionary, else false
 bool check(const char *word)
 {
-    // TODO
+    int hashvalue = hash(num);
     return false;
 }
 
@@ -87,7 +87,7 @@ bool load(const char *dictionary)
 // Returns number of words in dictionary if loaded, else 0 if not yet loaded
 unsigned int size(void)
 {
-    
+
     return wordcount;
 }
 
