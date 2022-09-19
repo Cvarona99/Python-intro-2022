@@ -38,11 +38,18 @@ bool load(const char *dictionary)
 {
     // TODO : load dictionary
     FILE* file = fopen(dictionary, "r");
-    if (file == NULL)
+    if (file != NULL)
     {
-        printf(")
+        return true;
     }
-    return  false;
+    else
+    {
+        printf("File could not be opened, NULL\n");
+        return  false;
+    }
+
+    char word[LENGTH+1];
+
 }
 
 // Returns number of words in dictionary if loaded, else 0 if not yet loaded
