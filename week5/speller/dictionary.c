@@ -3,7 +3,7 @@
 #include <ctype.h>
 #include <stdbool.h>
 #include <strings.h>
-#include <string.h> 
+#include <string.h>
 #include <stdlib.h>
 #include "dictionary.h"
 
@@ -74,7 +74,7 @@ bool load(const char *dictionary)
             return false;
         }
         // Copy word into node
-        strcopy(n->word, word);
+        strcpy(n->word, word);
         hash_value = hash(word);
 
         if(table[hash_value] == NULL)
