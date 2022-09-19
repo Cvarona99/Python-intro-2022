@@ -1,7 +1,10 @@
 // Implements a dictionary's functionality
-
+#include <stdio.h>
 #include <ctype.h>
 #include <stdbool.h>
+#include <string.h>
+#include <stdlib.h>
+
 
 #include "dictionary.h"
 
@@ -12,6 +15,10 @@ typedef struct node
     struct node *next;
 }
 node;
+
+// Declare variables
+unsigned int wordcount;
+unsigned int hash_value;
 
 // TODO: Choose number of buckets in hash table
 const unsigned int N = 26;
@@ -64,6 +71,7 @@ bool load(const char *dictionary)
         table[hash_value] = n;
         wordcount++;
     }
+    free(file); 
     fclose(file);
     return true;
 }
