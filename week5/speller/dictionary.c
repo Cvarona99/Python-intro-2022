@@ -49,7 +49,7 @@ unsigned int hash(const char *word)
     int words = 0;
     for (int i = 0; i < strlen(word); i++)
     {
-        words += word[i];
+        words += tolower(word[i]);
     }
     return (words % N);
 
