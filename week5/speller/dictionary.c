@@ -5,6 +5,8 @@
 #include <strings.h>
 #include <string.h>
 #include <stdlib.h>
+#include <ctype.h>
+
 #include "dictionary.h"
 
 // Represents a node in a hash table
@@ -100,9 +102,25 @@ unsigned int size(void)
     return wordcount;
 }
 
+void freeall(node *n)
+{
+    if(n->next != NULL)
+    {
+        freeall(n->next);
+    }
+    free(n);
+}
+
+
 // Unloads dictionary from memory, returning true if successful, else false
 bool unload(void)
 {
-    
-    return false;
+    for (int i = 0; i < N; i++)
+    {
+        if(table[i] != NULL)
+        {
+            freeall(table[i]);
+        }
+    }
+    return true;
 }
