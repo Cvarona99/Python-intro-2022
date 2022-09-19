@@ -74,10 +74,10 @@ bool load(const char *dictionary)
         // Copy word into node
         strcpy(n->word, word);
         hash_value = hash(word);
-        
+
         if(table[hash_value] == NULL)
         {
-            n->next = NULL;
+            ;
         }
         else
         {
