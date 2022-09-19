@@ -89,7 +89,6 @@ bool load(const char *dictionary)
         table[hash_value] = n;
         wordcount++;
     }
-    free(file);
     fclose(file);
     return true;
 }
@@ -104,6 +103,6 @@ unsigned int size(void)
 // Unloads dictionary from memory, returning true if successful, else false
 bool unload(void)
 {
-    // TODO
+    
     return false;
 }
