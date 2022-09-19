@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <stdbool.h>
-#include <string.h>
+#include <strings.h>
 #include <stdlib.h>
 #include "dictionary.h"
 
@@ -28,10 +28,14 @@ node *table[N];
 bool check(const char *word)
 {
     int hashvalue = hash(word);
-    node *cursor = table[hashvalue]
+    node *cursor = table[hashvalue];
     while(cursor != NULL)
     {
-        if(strcasecmp(cu))
+        if(strcasecmp(cursor->word, word) == 0)
+        {
+            return true;
+        }
+        cursor = cursor->next;
     }
     return false;
 }
