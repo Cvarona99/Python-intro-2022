@@ -50,19 +50,22 @@ bool load(const char *dictionary)
 
     char word[LENGTH + 1]
     while(fscanf(file, "%s", word) != EOF)
-
-    // Allocate memory
-    node *n = malloc(sizeof(node));
-    if (n == NULL)
     {
-        return false;
+        // Allocate memory
+        node *n = malloc(sizeof(node));
+        if (n == NULL)
+        {
+            return false;
+        }
+
+        strcopy(n->word, word);
+        hash_value = hash(word);
+        n->next = table[hash_value];
+        table[hash_value] = n;
+        wordcount++;
     }
-
-    strcopy(n->word, word);
-    hash_value = hash(word);
-    
-
-
+    fclose(file);
+    return true; 
 }
 
 // Returns number of words in dictionary if loaded, else 0 if not yet loaded
