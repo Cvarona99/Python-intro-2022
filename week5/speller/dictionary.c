@@ -21,8 +21,9 @@ node;
 unsigned int wordcount;
 unsigned int hash_value;
 
-// TODO: Choose number of buckets in hash table
-const unsigned int N = 26;
+
+
+const unsigned int N = (LENGTH + 1) * 'z';
 
 // Hash table
 node *table[N];
@@ -44,6 +45,7 @@ bool check(const char *word)
 }
 
 // Hashes word to a number
+// MATH USING ALL LETTERS
 unsigned int hash(const char *word)
 {
     int words = 0;
