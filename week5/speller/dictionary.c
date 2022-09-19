@@ -35,7 +35,7 @@ bool check(const char *word)
     node *cursor = table[hashvalue];
     while (cursor != NULL)
     {
-        if(strcasecmp(cursor->word, word) == 0)
+        if (strcasecmp(cursor->word, word) == 0)
         {
             return true;
         }
@@ -114,7 +114,7 @@ bool unload(void)
         node *cursor = head;
         node *tmp = head;
 
-        while(cursor != NULL)
+        while (cursor != NULL)
         {
             cursor = cursor->next;
             free(tmp);
