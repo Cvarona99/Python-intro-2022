@@ -60,6 +60,7 @@ bool load(const char *dictionary)
     {
         // Allocate memory
         node *n = malloc(sizeof(node));
+
         if (n == NULL)
         {
             return false;
@@ -67,7 +68,8 @@ bool load(const char *dictionary)
         // Copy word into node
         strcopy(n->word, word);
         hash_value = hash(word);
-        if(table(hash_value) == NULL)
+
+        if(table[hash_value] == NULL)
         {
             n->next = NULL;
         }
