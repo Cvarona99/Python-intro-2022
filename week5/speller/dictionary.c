@@ -105,25 +105,21 @@ unsigned int size(void)
     return wordcount;
 }
 
-void freeall(node *n)
-{
-    if(n->next != NULL)
-    {
-        freeall(n->next);
-    }
-    free(n);
-}
-
-
 // Unloads dictionary from memory, returning true if successful, else false
 bool unload(void)
 {
     for (int i = 0; i < N; i++)
     {
-        if(table[i] != NULL)
+        node *head = table[i];
+        node *cursor = head;
+        node *tmp = head;
+
+        while(cursor != NULL)
         {
-            freeall(table[i]);
+            cursor = cursor->next;
+            free(tmp);
+            tmp = cursor;
         }
     }
-    return true;
+    return false; 
 }
