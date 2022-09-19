@@ -29,7 +29,10 @@ bool check(const char *word)
 {
     int hashvalue = hash(word);
     node *cursor = table[hashvalue]
-    while(cursor != )
+    while(cursor != NULL)
+    {
+        if(strcasecmp(cu))
+    }
     return false;
 }
 
