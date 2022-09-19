@@ -27,7 +27,9 @@ node *table[N];
 // Returns true if word is in dictionary, else false
 bool check(const char *word)
 {
-    int hashvalue = hash(num);
+    int hashvalue = hash(word);
+    node *cursor = table[hashvalue]
+    while(cursor != )
     return false;
 }
 
