@@ -33,7 +33,7 @@ bool check(const char *word)
 {
     int hashvalue = hash(word);
     node *cursor = table[hashvalue];
-    while(cursor != NULL)
+    while (cursor != NULL)
     {
         if(strcasecmp(cursor->word, word) == 0)
         {
@@ -69,7 +69,7 @@ bool load(const char *dictionary)
     }
 
     char word[LENGTH + 1];
-    while(fscanf(file, "%s", word) != EOF)
+    while (fscanf(file, "%s", word) != EOF)
     {
         // Allocate memory
         node *n = malloc(sizeof(node));
@@ -82,7 +82,7 @@ bool load(const char *dictionary)
         strcpy(n->word, word);
         hash_value = hash(word);
 
-        if(table[hash_value] == NULL)
+        if (table[hash_value] == NULL)
         {
             table[hash_value] = n;
         }
