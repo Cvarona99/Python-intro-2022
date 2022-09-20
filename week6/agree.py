@@ -5,8 +5,8 @@ from cs50 import get_string
 s = get_string("Do you agree? ").lower()
 
 # Check whether agreed
-if s.lower in ["Y", "y", "yes", "YES"]:
+if s in ["Y", "y", "yes", "YES"]:
     print("Agreed")
-elif s.lower in ["n", "no"]:
+elif s in ["n", "no"]:
     print("Not Agreed")
 
