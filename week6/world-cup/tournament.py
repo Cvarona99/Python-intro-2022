@@ -15,7 +15,7 @@ def main():
         sys.exit("Usage: python tournament.py FILENAME")
 
     teams = []
-   
+
     filename = sys.argv[1]
     with open(filename) as file:
         reader = csv.DictReader(file)
@@ -26,6 +26,7 @@ def main():
     # Keep track of number of wins for each team
     counts = {}
     for i in range(N):
+        winner = simulate_tournament(teams)
         if winner in counts:
             counts_winner += 1
         else:
