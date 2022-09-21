@@ -29,7 +29,7 @@ def main():
 
 
 
-        counts = {}
+    counts = {}
     # TODO: Simulate N tournaments and keep track of win counts
 
     # Print each team's chances of winning, according to simulation
