@@ -1,2 +1,2 @@
-first = input("First: ");
-second = input("Second ");
+first = int(input("First: "));
+second = int(input("Second "))cou;
