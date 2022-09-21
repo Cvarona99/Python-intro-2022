@@ -1,4 +1,5 @@
 
 first = int,float(input("First: "));
-second = int,float(input("Second "));
-sum = first + second
+second = (input("Second "));
+sum = first + second;
+print("Sum: " + sum);
