@@ -22,6 +22,7 @@ def main():
        for team in reader:
            team["rating"] = int(team["rating"])
            teams.append(team)
+           
 
 
 
