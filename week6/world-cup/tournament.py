@@ -64,6 +64,7 @@ def simulate_tournament(teams):
     # TODO: simulate rounds until there is one winner left
     while len(teams) > 1:
         teams = simulate_round(teams)
+    return teams[0]
 
 
 if __name__ == "__main__":
