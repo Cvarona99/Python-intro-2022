@@ -22,7 +22,7 @@ def main():
        for team in reader:
            team["rating"] = int(team["rating"])
            teams.append(team)
-           
+
 
 
 
@@ -62,6 +62,7 @@ def simulate_round(teams):
 def simulate_tournament(teams):
     """Simulate a tournament. Return name of winning team."""
     # TODO
+    
 
 
 if __name__ == "__main__":
