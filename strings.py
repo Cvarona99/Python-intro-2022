@@ -1,2 +1,2 @@
 course = 'Python'
-print(course.lower)
+print(course.replace('x', '4'))
