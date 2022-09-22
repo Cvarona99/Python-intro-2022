@@ -1,4 +1,4 @@
-weight = float(input("Weight: "))
+weight = int(input("Weight: "))
 unit = input("(K)g or (L)b: ")
 
 if unit.lower == "L":
