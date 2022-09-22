@@ -3,4 +3,6 @@ num = 0
 if num >= 0:
     print(f"number {num} is positive")
 else:
-    print("not positive") 
+    print("not positive")
+
+list = [1, 1]
