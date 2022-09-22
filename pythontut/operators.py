@@ -3,7 +3,7 @@ unit = float(input("(K)g or (L)b: "))
 
 if unit.lower == "L":
     converted = weight * 0.45
-    print ("Weight in Kg: " + converted)
+    print ("Weight in Kg: " + str(converted))
 else:
     converted = weight / 0.45
-    print("Weight in Lbs: " + converted)
+    print("Weight in Lbs: " + str(converted))
