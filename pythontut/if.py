@@ -5,4 +5,3 @@ if num >= 0:
 else:
     print("not positive")
 
-
