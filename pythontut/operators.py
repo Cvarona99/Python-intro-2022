@@ -1,5 +1,5 @@
 weight = float(input("Weight: "))
-unit = float(input("(K)g or (L)b: "))
+unit = input("(K)g or (L)b: ")
 
 if unit.lower == "L":
     converted = weight * 0.45
