@@ -1,6 +1,6 @@
 
 # Keys must be unique per dictionary
-person = { "name: "Jamal
-            
+person = { "name": "Jamal"
+           "age": "20" 
 
 }
