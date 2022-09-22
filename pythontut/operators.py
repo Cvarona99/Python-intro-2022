@@ -1,2 +1,2 @@
 weight = input("Weight: ")
-unit = 
+unit = input.("Kg or Lb: ")
