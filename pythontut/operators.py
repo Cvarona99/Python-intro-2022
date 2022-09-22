@@ -1,4 +1,5 @@
 weight = input("Weight: ")
-unit = input("Kg or Lb: ")
+unit = input("(K)g or (L)b: ")
 
-if unit 
+if unit.lower = "L":
+    print ("Weight in Kg: ")
