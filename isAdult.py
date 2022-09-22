@@ -4,4 +4,5 @@ def isAdult(age):
     else:
         return False
 
-isAdult(10)
+result = isAdult(10)
+print(result)
