@@ -60,3 +60,4 @@ def calculate_pennies(dollars):
         pennies + 1
         dollars -= 0.01
     return pennies
+main()
