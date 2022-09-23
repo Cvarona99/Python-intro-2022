@@ -41,7 +41,7 @@ def count_sentences(text):
     length = len(text)
     for i in range(0, length):
         if text[i] == "." or text[i] == "!" or text[i] == "?":
-            counter+= 1
+            counter += 1
         i += 1
     return counter
 
