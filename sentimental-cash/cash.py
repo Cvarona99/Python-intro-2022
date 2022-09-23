@@ -1,4 +1,5 @@
 from cs50 import get_float
 
 def main():
-    # Ask how many 
+    # Ask how many dollars the customer is owed
+    
