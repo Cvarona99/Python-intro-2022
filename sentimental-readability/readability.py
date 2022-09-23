@@ -9,4 +9,6 @@ def main():
     L = letters / words * 100
     S = sentences / words * 100
 
-    index = ro
+    index = round(0.0588 * L - 0.296 * S - 15.8)
+
+    if
