@@ -44,4 +44,5 @@ def count_letters(text):
             counter += 1
         i += 1
     return counter
+
 main()
