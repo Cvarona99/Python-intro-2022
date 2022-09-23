@@ -12,10 +12,17 @@ def main():
     int dimes = calculate_dimes(dollars)
     dollars = dollars - (dimes * 10)
 
-    # Calculate the number of dimes
-    int dimes = calculate_dimes(dollars)
-    dollars = dollars - (dimes * 10)
+    # Calculate the number of nickels
+    int nickels = calculate_nickels(dollars)
+    dollars = dollars - (nickels * 5)
 
-    # Calculate the number of dimes
-    int dimes = calculate_dimes(dollars)
-    dollars = dollars - (dimes * 10)
+    # Calculate the number of pennies
+    int pennies = calculate_pennies(dollars)
+    dollars = dollars - (pennies * 1)
+
+    # Sum coins
+    int coins = quarters + dimes + nickels + pennies
+
+def get_cents():
+    while True:
+        
