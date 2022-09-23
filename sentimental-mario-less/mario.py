@@ -1,5 +1,6 @@
 def main():
-    for i in range(height):
+    size  = get_height()
+    for i in range(size):
         for j in range(i):
             print("#")
         print(" ")
@@ -12,3 +13,5 @@ def get_height():
         else:
             break
     return height
+
+main()
