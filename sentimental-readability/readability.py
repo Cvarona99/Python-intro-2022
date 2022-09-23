@@ -28,4 +28,5 @@ def count_words(text):
     return counter
 
 def count_sentences(text):
-    
+    counter = 0
+    length = len(text)
