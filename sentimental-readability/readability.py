@@ -20,4 +20,5 @@ def main():
 
 def count_words(text):
     counter = 1
-    length = strlen(text)
+    length = len(text)
+    
