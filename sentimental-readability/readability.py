@@ -19,6 +19,8 @@ def main():
     else:
         print("Grade ", + int(round(index)))
 
+        print("letters: ", +letters)
+
 def count_letters(text):
     counter = 0
     length = len(text)
@@ -27,7 +29,7 @@ def count_letters(text):
             counter += 1
         i += 1
     return counter
-    print("letters: ", +letters)
+
 
 
 def count_words(text):
