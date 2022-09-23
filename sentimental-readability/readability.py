@@ -18,6 +18,15 @@ def main():
     else:
         print("Grade ", + int(round(index)))
 
+def count_letters(text):
+    counter = 0
+    length = len(text)
+    for i in range(0, length):
+        if text.isalnum[i]:
+            counter += 1
+        i += 1
+    return counter
+
 def count_words(text):
     counter = 1
     length = len(text)
@@ -33,15 +42,6 @@ def count_sentences(text):
     for i in range(0, length):
         if text[i] == "." or text[i] == "!" or text[i] == "?":
             counter+= 1
-        i += 1
-    return counter
-
-def count_letters(text):
-    counter = 0
-    length = len(text)
-    for i in range(0, length):
-        if text.isalnum[i]:
-            counter += 1
         i += 1
     return counter
 
