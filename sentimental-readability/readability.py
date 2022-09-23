@@ -5,6 +5,9 @@ def main():
     letters = count_letters(text)
     sentences = count_sentences(text)
     words = count_words(text)
+    print(letters)
+    print(words)
+    print(sentences)
 
     L = round(letters / words) * 100
     S = round(sentences / words) * 100
