@@ -1,4 +1,4 @@
 while True:
     height = int(input("Height: "))
-    if height > 1 or height < 8:
+    if not height < 1 or not height > 8:
         break
