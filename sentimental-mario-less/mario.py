@@ -2,7 +2,11 @@ def main():
     size  = get_height()
     for i in range(size):
         for j in range(size):
-            if (i + j)
+            if i + j >= size - 1:
+                print("#", end="")
+            else:
+                print(" ", end="")
+        print()
 
 
 
