@@ -26,11 +26,12 @@ def main():
 
 def get_cents():
     while True:
-        cents = get_float("Change?: ")
-        if cents > 0:
+        dollars = get_float("Change?: ")
+        if cents >= 0:
             break
         else:
             continue
+    cents = round(dollars *100)
     return cents
 
 def calculate_quarters(cents):
