@@ -25,3 +25,7 @@ def count_words(text):
         if text[i] == ' ':
             counter += 1
         i += 1
+    return counter
+
+def count_sentences(text):
+    
