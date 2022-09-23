@@ -25,4 +25,8 @@ def main():
 
 def get_cents():
     while True:
-        
+        dollars = get_float("Change?: ")
+        if dollars > 0.00:
+            break
+        else:
+            continue
