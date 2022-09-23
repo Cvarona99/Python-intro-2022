@@ -3,7 +3,7 @@ def main():
     for i in range(size):
         for size in range>(size):
             print(".")
-        for j in range(i+1):
+        for j in range(i):
             print("#", end="")
         print()
 
