@@ -11,4 +11,4 @@ def get_height():
             continue
         else:
             break
-        return height
+    return height
