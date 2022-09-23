@@ -25,7 +25,7 @@ def count_letters(text):
     counter = 0
     length = len(text)
     for i in range(length):
-        if i.isalpha():
+        if text.isalpha():
             counter += 1
         i += 1
     return counter
