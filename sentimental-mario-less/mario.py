@@ -1,7 +1,8 @@
 def main():
     size  = get_height()
     for i in range(size):
-        for z = size in range
+        for (z = size) in range(>size):
+            print(".")
         for j in range(i+1):
             print("#", end="")
         print()
