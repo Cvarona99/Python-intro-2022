@@ -4,7 +4,7 @@ def main():
     text = get_string("Text: ")
     letters = count_letters(text)
     sentences = count_sentences(text)
-    words = count_words(texts)
+    words = count_words(text)
 
     L = letters / words * 100
     S = sentences / words * 100
@@ -13,9 +13,11 @@ def main():
 
     if index > 16:
         print("Grade 16+")
-    else if index < 1:
+    elif index < 1:
         print("Before Grade 1")
     else:
-        print("Grade ", + int(round(index))
+        print("Grade ", + int(round(index)))
 
-
+def count_words(text):
+    counter = 1
+    length = strlen(text)
