@@ -1,8 +1,9 @@
 def main():
     size  = get_height()
-    for i in range(0, size):
-        j = i
-        spaces = size - j
+    for i in range(size):
+        for j in range(size):
+            if (i + j)
+
 
 
 
