@@ -4,3 +4,4 @@ while True:
         continue
     else:
         break
+for i in range(height)
