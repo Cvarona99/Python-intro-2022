@@ -23,4 +23,5 @@ def count_words(text):
     length = len(text)
     for i in range(0, length):
         if text[i] == ' ':
-            counter += 
+            counter += 1
+        i += 1
