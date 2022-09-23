@@ -6,4 +6,16 @@ def main():
 
     # Calculate the number of quarters
     int quarters = calculate_quarters(dollars)
-    dollars = dollars - quarters * 25
+    dollars = dollars - (quarters * 25)
+
+    # Calculate the number of dimes
+    int dimes = calculate_dimes(dollars)
+    dollars = dollars - (dimes * 10)
+
+    # Calculate the number of dimes
+    int dimes = calculate_dimes(dollars)
+    dollars = dollars - (dimes * 10)
+
+    # Calculate the number of dimes
+    int dimes = calculate_dimes(dollars)
+    dollars = dollars - (dimes * 10)
