@@ -21,5 +21,5 @@ def main():
 def count_words(text):
     counter = 1
     length = len(text)
-    for i in range()
+    for i in range(length)
 
