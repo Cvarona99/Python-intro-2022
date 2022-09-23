@@ -48,4 +48,4 @@ def calculate_nickels(dollars):
     while dollars >= 0.05:
         nickels + 1
         dollars -= 0.05
-    return dimes
+    return nickels
