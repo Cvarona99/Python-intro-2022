@@ -18,20 +18,29 @@ def main():
         database.append(row)
 
 
-    # TODO: Read DNA sequence file into a variable
+    #! Read DNA sequence file into a variable
     csv = sys.argv[2]
     with open(csv, 'r') as file:
         dnaSequence = file.read()
 
-    # TODO: Find longest match of each STR in DNA sequence
+    #! Find longest match of each STR in DNA sequence
     strepeat = list(database[0].keys())[1:]
 
     results = {}
     for subsequence in strepeat:
-        result[subsequence] = longest_match(dnaSequence, subsequence)
-    # TODO: Check database for matching profiles
+        results[subsequence] = longest_match(dnaSequence, subsequence)
+    #! Check database for matching profiles
+    for name in database:
+        match = 0
+        for subsequence in strepeat:
+            if int(name[subsequence]) == results[subsequence]:
+                match += 1
+        # if subsequences match
+        if match == len(strepeat):
+            print(name["name"])
+            return
 
-    return
+    print("No match")
 
 
 def longest_match(sequence, subsequence):
