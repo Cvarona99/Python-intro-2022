@@ -7,8 +7,8 @@ def main():
     words = count_words(text)
 
 
-    L = round(letters / words) * 100
-    S = round(sentences / words) * 100
+    L = (letters / words * 100)
+    S = (sentences / words * 100)
 
     index = round(0.0588 * L - 0.296 * S - 15.8)
 
@@ -19,17 +19,18 @@ def main():
     else:
         print("Grade ", + int(round(index)))
 
-        print("letters: ", +letters)
+    print("letters: ", +letters)
+
+    print("Words: ", +words)
+
+    print("Sentences: ", +sentences)
 
 def count_letters(text):
-    counter = 0
-    length = len(text)
-    for i in range(length):
-        if text.isalpha():
+    counter = 0;
+    for i in text:
+        if i.isalpha():
             counter += 1
-        i += 1
     return counter
-
 
 
 def count_words(text):
