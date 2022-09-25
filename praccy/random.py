@@ -5,4 +5,11 @@ def guess(x):
     guess = 0
     while guess != randomNum:
         guess = input(f"Guess a number between 1 and {x}: ")
-        print 
+        if guess < randomNum:
+            print("Too low")
+        elif guess > randomNum:
+            print("Too high")
+    print (" You have guessed correctly!")
+
+
+guess(10)
