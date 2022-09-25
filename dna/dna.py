@@ -7,12 +7,12 @@ def main():
     # TODO: Check for command-line usage
     if len(sys.argv) != 3:
         print("Usage: python dna.py data.csv sequence.txt")
-        
+
 
     # TODO: Read database file into a variable
     database = []
-    filename = sys.argv[3]
-    with open(filename) as file:
+    filename = sys.argv[1]
+    with open(filename, 'r') as file:
        reader = csv.DictReader(file)
        for row in reader:
         database.append(row)
