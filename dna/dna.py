@@ -21,10 +21,14 @@ def main():
     # TODO: Read DNA sequence file into a variable
     csv = sys.argv[2]
     with open(csv, 'r') as file:
-        dna_sequence = file.read()
+        dnaSequence = file.read()
 
     # TODO: Find longest match of each STR in DNA sequence
+    strepeat = list(database[0].keys())[1:]
 
+    results = {}
+    for subsequence in strepeat:
+        result[subsequence] = longestMatch(dnaSequence, subsequence)
     # TODO: Check database for matching profiles
 
     return
