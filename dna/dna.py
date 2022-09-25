@@ -28,7 +28,7 @@ def main():
 
     results = {}
     for subsequence in strepeat:
-        result[subsequence] = longestMatch(dnaSequence, subsequence)
+        result[subsequence] = longest_match(dnaSequence, subsequence)
     # TODO: Check database for matching profiles
 
     return
