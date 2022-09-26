@@ -5,11 +5,12 @@ def play():
     comp = random.choice(['r', 'p', 's'])
 
     if user.lower() == comp:
-        return "tie"
+        return 'tie'
 
     if is_win(user, comp):
-        return "You win!"
-    return "You lose!"
+        return 'You win!'
+
+    return 'You lose!'
 
 def is_win(player, opp):
     if (player == 'r' and opp == 's') or (player == 's' and opp == 'p')\
