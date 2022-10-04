@@ -5,7 +5,7 @@ import time
 
 today = date.today()
 clock = time.localtime()
-time = time.strftime(("%I"-2)":%M", clock)
+time = time.strptime(f"%I{-4}:%M", clock)
 
 
 print ("Current date: ", today , "\nTime: ", time )
