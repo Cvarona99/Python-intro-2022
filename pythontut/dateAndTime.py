@@ -15,8 +15,9 @@ month_day_year = today.strftime("%m-%d-%Y") # Changes the format to month day ye
 
 
 
-
-print("Current date: ", month_day_year , "\nTime: ", currentTime ) # Prints the current date and time
+while True:
+    print("Current date: ", month_day_year , "\nTime: ", currentTime ) # Prints the current date and time
+    time.sleep(1)
 
 
 
