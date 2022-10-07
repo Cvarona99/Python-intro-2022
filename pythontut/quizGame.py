@@ -6,19 +6,14 @@ def main():
 
     while True:
         playing = input("Do you want to play? ")
-        if playing != "yes" or if playing != "no" :
-
-
-            print("type yes or no")
-
-
-        elif playing == "no":
+        if playing == "yes":
+            print("I took the woooooook to Poland")
             break
+        elif playing == "no":
+            print("quitting")
             return 1
         else:
-            print("I took the wooooooock to Poland")
-            break
-        break
+            print("type 'yes' or 'no'")
 
 
 
