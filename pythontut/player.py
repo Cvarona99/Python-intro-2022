@@ -11,4 +11,11 @@ class Player:
         pass
 
 class RandomCPU(Player):
-    
+    def _init_(self,letter):
+        super()._init_(letter)
+    def get_move(self, game):
+        pass
+
+class Human(Player):
+    def _init_(self,letter):
+        
