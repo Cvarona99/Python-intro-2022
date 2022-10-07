@@ -6,7 +6,7 @@ def main():
 
     while True:
         playing = input("Do you want to play? ")
-        if playing == "yes":
+        if playing.lower == "yes":
             print("Begin!")
             break
         elif playing == "no":
@@ -15,7 +15,7 @@ def main():
         else:
             print("type 'yes' or 'no'")
     answer = input("what does CPU stand for? ")
-    if answer.lower == "central processing unit":
+    if answer.lower() == "central processing unit":
         print("Correct!")
     else:
         print("incorrect")
