@@ -6,7 +6,7 @@ def main():
 
     while True:
         playing = input("Do you want to play? ")
-        if playing.lower == "yes":
+        if playing.lower() == "yes":
             print("Begin!")
             break
         elif playing == "no":
