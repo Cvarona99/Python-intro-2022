@@ -10,8 +10,11 @@ def main():
             print("type yes or no")
             continue
         elif playing == "no":
+            break
             return 1
-        break
+        else:
+            print("I took the wooooooock to Poland")
+            break
 
 
 
