@@ -14,7 +14,8 @@ def main():
             return 1
         else:
             print("type 'yes' or 'no'")
-
+    answer = input("what does CPU stand for? ")
+    if answer.tolower == "Central Processing unit":
 
 
 
