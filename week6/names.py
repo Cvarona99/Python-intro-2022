@@ -4,7 +4,7 @@ names = ["Bill", "Charlie", "Fred"]
 
 name = input("Name: ")
 
-if "Fred" in names:
+if name in names:
     print ("Found")
     sys.exit(0)
 
