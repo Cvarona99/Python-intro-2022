@@ -5,6 +5,6 @@ public static void main(String[] args) throws Exception {
     System.out.println("Enter name");
     String name = k.nextLine(); // read user input
     System.out.println("Hello ," +name);
-
+    void close();
  }
 }
