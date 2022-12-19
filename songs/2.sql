@@ -1,1 +1,1 @@
-SELECT name FROM songs ORDER BY ASC tempo
+SELECT name FROM songs ORDER BY tempo
