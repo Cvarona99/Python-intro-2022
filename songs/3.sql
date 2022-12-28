@@ -1,1 +1,1 @@
-SELECT name FROM TOP songs ORDER BY length DESC LIMIT 5;
+SELECT name FROM songs ORDER BY length DESC LIMIT TOP 5;
