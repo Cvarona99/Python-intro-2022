@@ -1,2 +1,2 @@
 SELECT name FROM songs
-WHERE name LIKE 'f%e%';
+WHERE name IN ('f%', 'e%', 'a%', 't%');
