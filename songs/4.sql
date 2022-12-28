@@ -1,2 +1,2 @@
 SELECT name FROM songs
-where 
+WHERE 
