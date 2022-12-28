@@ -1,1 +1,1 @@
-SELECT name FROM songs FROM artists(Post Malone);
+SELECT name FROM songs in artists(Post Malone);
