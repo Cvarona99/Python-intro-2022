@@ -1,4 +1,2 @@
-SELECT name FROM songs
-WHERE danceability > 0.75
-WHERE energy > 0.75
-WHERE valence > 0.75;
+SELECT name, danceability, energy, valence FROM songs
+WHERE danceability AND energy AND valence > 0.75;
