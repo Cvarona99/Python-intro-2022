@@ -1,1 +1,1 @@
-SELECT name FROM TOP 5 songs BY length DESC;
+SELECT name FROM TOP songs BY length DESC 5;
